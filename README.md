@@ -4,7 +4,7 @@
 
 ### npm install
 
-Para adicionar a para node-modules
+Para adicionar a pasta node-modules
 
 ### npm install react-router-dom
 
