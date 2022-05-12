@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-pg1 {
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: #3c78cd;
+}
+.logo{ 
+   margin-left: 15px;
+}
+.text1-logo {
+	color: #fff;
+	position: relative;
+	top: 13px;
+	font-weight: 800;
+
+}
+.text2-logo {
+	color: #fff;
+    	position: relative;
+    	left: 11px;
+    	top: 7px;
+    	font-weight: 400;
+    	width: 114px;
+    	font-size: 8px;
+
+}
+
+.icon-download{
+	width: 2%;
+        position: relative;
+	top: -27px;
+	left: 190px;
+}
+.download-arquivos {
+	color: #fff;
+	position: relative;
+	left: 184px;
+        top: -29px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.icon-consulta{
+	width: 21px;
+        position: relative;
+        TOP: -25px;
+        left: 148px;
+	width: 21px;
+        position: relative;
+        TOP: -25px;
+        left: 148px;
+}
+.consulta {
+	color: #fff;
+	position: relative;
+	left: 230px;
+        top: -28px;
+	font-size: 15px;
+	font-weight: 400;
+}
+.icon-sair{
+	width: 2%;
+        position: relative;
+        left: 1058px;
+        top: -32px;
+}
+
+.sair {
+	color: #fff;
+	position: relative;
+	top: -18px;
+	left: 1080px;
+	font-size: 15px;
+}
+
+@media (max-width: 1350px) {
+        .icon-sair{
+	  left: 860px;
+	}
+	.sair {
+	left: 880px;   
+       }
+}
+
+@media (max-width: 1150px) {
+        .icon-sair{
+	  left: 320px;
+	}
+	.sair {
+	left: 300px;   
+       }
+}
